@@ -20,6 +20,7 @@ html, body{
 .main{
 	width: 100%;
 	background: black;
+	overflow: hidden;
 
 }
 .hero{
@@ -207,4 +208,61 @@ html, body{
 }
 .elem-bonding{
 	transform: translateY(110%);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 481px) {
+	.about{
+		flex-wrap: wrap;
+		padding: 0px 3vw;
+		gap: 0px;
+	}
+	.about img {
+	    height: 150px;
+	    margin: 0px auto;
+	}
+	.footer{
+		 flex-direction: column-reverse;
+	}
+
+	.social{
+		font-size: 16px;
+	}
+	.copyright{
+		width: 100%;
+		gap: 35px;
+		align-items: center;
+		padding: 12px 0px;
+		justify-content: center;
+	}
+	.element img{
+		width: 100px;
+	}
+	.last-headings a{
+		width: 300px;
+	}
+	.last-headings{
+		gap: 60px;
+	}
+	.nav h2{
+		font-size: 4.5vw;
+	}
+	.hero-headings {
+	    width: 65%;
+	    padding: 74px 23px;
+	}
+	.hero-headings p{
+		font-size: 3vw;
+	}
+	.side-text h5{
+		font-size: 2.5vw;
+	}
+	.nav{
+		width: 93%;
+	}
 }
